@@ -1,13 +1,13 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/app-laptop/i8kutils/i8kutils-1.33-r1.ebuild,v 1.2 2014/02/15 13:18:36 pacho Exp $
+# $Header: /var/cvsroot/gentoo-x86/app-laptop/i8kutils/i8kutils-1.42.ebuild,v 1.3 2015/05/17 15:03:53 Ionel A $
 
-EAPI=4
+EAPI=5
 
 inherit systemd toolchain-funcs
 
 DESCRIPTION="Dell Inspiron and Latitude utilities"
-HOMEPAGE="http://packages.debian.org/sid/i8kutils"
+HOMEPAGE="https://launchpad.net/i8kutils"
 SRC_URI="https://launchpad.net/i8kutils/trunk/${PV}/+download/${P/-/_}.tar.xz"
 
 S="${WORKDIR}/${PN}"
